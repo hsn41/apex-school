@@ -1,0 +1,21 @@
+.card {
+  margin: 10px 20px;
+  max-width: 100%;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: auto;
+}
+.serail {
+  width: 5%;
+}

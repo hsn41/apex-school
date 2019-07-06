@@ -1,0 +1,55 @@
+.row {
+  margin: 10px 10px;
+}
+[class^="col-"]:not(.pad-no) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.media-body {
+  width: 10000px;
+}
+.pad-all {
+  padding: 15px;
+}
+.panel {
+   border: 0;
+   border-radius: 3px;
+   box-shadow: none !important;
+   margin-bottom: 20px;
+ }
+p {
+  display: block;
+  font-size: 15px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.panel-warning .panel-heading, .panel-warning .panel-footer, .panel-warning.panel-colorful {
+  background-color: #ffb300;
+  border-color: #ffb300;
+  color: #fff;
+}
+.panel-info .panel-heading, .panel-info .panel-footer, .panel-info.panel-colorful {
+  background-color: #03a9f4;
+  border-color: #03a9f4;
+  color: #fff;
+}
+.panel-mint .panel-heading, .panel-mint .panel-footer, .panel-mint.panel-colorful {
+  background-color: #26a69a;
+  border-color: #26a69a;
+  color: #fff;
+}
+.panel-danger .panel-heading, .panel-danger .panel-footer, .panel-danger.panel-colorful {
+  background-color: #f44336;
+  border-color: #f44336;
+  color: #fff;
+}
+.panel .panel-heading, .panel>:first-child {
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.panel .panel-footer, .panel>:last-child {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
